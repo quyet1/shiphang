@@ -1,0 +1,75 @@
+
+a.closes {
+	background-color: rgb(204,204,204);
+	border-radius: 50%;
+	color: rgb(255,255,255);
+	display: block;
+	font-family: 'Varela Round', sans-serif;
+	font-size: .8em;
+	padding: .2em .5em;
+	position: absolute;
+	top: 1.25rem;
+	transition: all 400ms ease;
+	right: 1.25rem;
+}
+	
+	a.closes:hover {
+		background-color: #1bc5b3;
+		cursor: pointer;
+	}
+
+/*
+*	LOG-IN BOX
+*/
+div.overlay {
+	background-color: rgba(0,0,0,.25);
+	position: absolute;
+	width: 100%;
+        
+}
+	div.overlay > div.login-wrapper {
+		align-self: center;
+		background-color: rgba(0,0,0,.25);
+		border-radius: 1px;
+		padding: 6px;
+		width: 350px;
+	}
+	
+		div.overlay > div.login-wrapper > div.login-content {
+			background-color: rgb(255,255,255);
+			border-radius: 2px;
+			padding: 24px;	
+			position: relative;
+		}
+		
+			div.overlay > div.login-wrapper > div.login-content > h3 {
+				color: rgb(0,0,0);
+				font-family: 'Varela Round', sans-serif;
+				font-size: 1.8em;
+				margin: 0 0 1.25em;
+				padding: 0;
+			}
+/*
+*	FORM
+*/
+form label {
+	color: rgb(0,0,0);
+	display: block;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.25em;
+	margin: .75em 0;	
+}
+.quan{
+    width: 80%;
+    background-color: rgb(255,255,255);
+    
+    border: 1px solid rgb( 186, 186, 186 );
+    border-radius: 1px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+    display: block;
+    font-size: .65em;
+    margin: 6px 0 12px 0;
+    padding: .8em .55em;	
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+    transition: all 400ms ease;
+}

@@ -1,0 +1,806 @@
+@media (min-width: 768px) {
+	.menu{
+		/*background: url(../images/BgMenu.png) center no-repeat;*/
+        background: #373737;
+	}
+    .menu  li > a{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+	.menu .navbar-collapse{
+	    text-align: center;
+	}
+
+	.menu ul li{
+		float: none;
+		display: inline-block;
+	}
+	.menu .navbar-collapse{
+		min-height: 47px;
+		line-height: 47px;
+	}
+    .content-support .col-md-4{
+        #width: 27%;
+    }
+	.item-support{
+        margin-right: 80px;
+		//height: 110px;
+		/*overflow: hidden;*/
+	}
+	.follow-post-my-job{
+		margin-right: 40px;
+	}
+    .item-content-last{
+        margin-right: 0px !important;
+    }
+}
+@media (max-width:768px) {
+	.menu{
+		background: #373737;
+	}
+	.margin-bottom{
+		margin-bottom: 10px;
+	}
+	.icon-support{
+		margin: 0 auto;
+	}
+    .step-app-static{
+        display: none !important;
+    }
+}
+/*@media (min-width:1192px){*/
+    /*#slider1_container{*/
+        /*left: -45px !important;*/
+        /*height : 590px !important;*/
+        /*width : 1150px !important;*/
+    /*}*/
+/*}*/
+@media (min-width:1200px){
+    .item-content{
+        max-height: 320px;
+    }
+	.menu ul li{
+		margin-right: 50px;
+        margin-top: 5px;
+	}
+	/*.step-1 div,.step-2 div,.step-3 div{*/
+		/*position: absolute;*/
+		/*top: 25px;*/
+		/*right: 50px;*/
+		/*width: 90px;*/
+		/*font-size: 14px;*/
+	/*}*/
+	.step-app{
+		position: relative;
+		top: 280px;
+		left: -25px;
+	}
+	.button-app{
+		position: relative;
+		top: 455px;
+	}
+    .menu-header-top li:last-child{
+        padding-right: 0;
+    }
+    .container-dashboard .item-content{
+        height: 305px;
+        max-height: 305px;
+    }
+
+}
+@media (min-width:980px){
+
+	.no-padding{
+		padding: 0;
+	}
+	.no-padding-left{
+		padding-left: 0;
+	}
+	.no-padding-right{
+		padding-right: 0;
+	}
+	.item-content{
+		margin-right: 25px;
+	}
+	
+	.item-content .border{
+		
+	}
+	.no-margin-bottom{
+		margin-bottom: 0px;
+	}
+    .container-dashboard .item-content{
+        height: 305px;
+        max-height: 305px;
+    }
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media (max-width: 285px){
+	.margin-bottom{
+		margin-bottom: 10px;
+	}
+	.read-more{
+		padding: 10px 20px 10px 8px;
+	}
+}
+
+@media (min-width: 992px){
+	.content-item-review .col-md-6{
+			width: 45%;
+	}
+	.right{
+		float: right;
+	}
+	.content-item-review > .item-review{
+		margin-top: 40px;
+		margin-bottom: 70px;
+	}
+    .info-item-app{
+        height: 160px;
+    }
+    .title-item-app{
+        height: 65px;
+    }
+    .title-item-app div:first-child{
+        max-height: 18px;
+        overflow: hidden;
+    }
+    .content-list-search-project > div{
+        min-height: 130px;
+    }
+}
+@media (min-width:992px){
+	.main-content > .col-md-3,.work-history > .container:nth-child(2) > .row > .col-md-3{
+		width: 23%;
+	}
+	.item-content-last{
+		margin-right: 0px;
+	}
+	.item-review:nth-last-child(2){
+		margin-bottom: 0px;
+	}
+	.item-review:last-child{
+		margin-bottom: 0px;
+	}
+    .list-dev-recommended .col-lg-3{
+        width: 23%;
+    }
+}
+@media(min-width: 585px){
+    .name-user-s-mb{
+        display: none;
+    }
+}
+@media (max-width:585px){
+	.follow-fluid{
+		background: url(../images/bg_follow.png) no-repeat;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+ 		background-position: center;
+  		height: auto;
+	}
+    .button-app-static > .want-a-job{
+        left: 0;
+        top: 70px;
+    }
+    .faq-hiw{
+        display: none;
+    }
+    .tab-hiw{
+        text-align: center;
+    }
+    .icon-left-hiw-1,.icon-left-hiw-2,.icon-left-hiw-3,.icon-left-hiw-4,.icon-left-hiw-5,.icon-left-hiw-f-1,.icon-left-hiw-f-2,.icon-left-hiw-f-3,.icon-left-hiw-f-4,.icon-left-hiw-f-5{
+        margin-left: 35%;
+    }
+    .left-hiw > div > div:last-child{
+        text-align: center;
+    }
+    .wtc-hiw{
+        background: url("../images/bg_hiw2.png") no-repeat scroll center center #fff;
+        /*height: 319px;*/
+        color:#fff;
+    }
+    .btn-view-profile{
+        text-align: center !important;
+    }
+    .name-user-mb{
+        display: none;
+    }
+    .name-user-s-mb{
+        display: block;
+    }
+    .info-profile-footer{
+        text-align: center;
+    }
+    div.wrap_unregister_job{
+        //padding-left: 30px;
+        //padding-right: 30px;
+    }
+    .right-view-job-unregister,.distance_top > .col-md-8, .distance_top > .col9,.distance_top > .col-md-4, .distance_top > .col3{
+        width: 100%;
+    }
+    .distance_top > .col-md-4{
+        margin-top: 20px;
+    }
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .post-my-job,.want-a-job{
+    	/*padding: 10px  10px 16px !important;*/
+    }
+    .label-bid{
+        margin-top: 9px;
+    }
+} /* fix google chrome */
+@-moz-document url-prefix() {
+    .label-bid{
+        margin-top: 9px;
+    }
+    .select-ff{
+        -prefix-appearance : none !important;
+        text-indent: 0.01px;
+        text-overflow: "";
+        -moz-appearance : none !important;
+    }
+} /* fix firefox */
+
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #828282;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #828282;
+    opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #828282;
+    opacity:  1;
+}
+.form-control::-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #828282;
+}
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /* Retina-specific stuff here */
+    .icon-support-1 span {
+        //background: url("../images/icon-sp-1@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-lookup {
+        //background: url("../images/icon-lookup@2x.png") no-repeat scroll;
+        //background-size: 28px 28px;
+    }
+    .icon-support-2 span {
+        //background: url("../images/icon-sp-2@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-3 span {
+        //background: url("../images/icon-sp-3@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-4 span {
+        //background: url("../images/icon-sp-4@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-5 span {
+        //background: url("../images/icon-sp-5@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-6 span {
+        //background: url("../images/icon-sp-6@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-7 span {
+        //background: url("../images/icon-sp-7@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-8 span {
+        //background: url("../images/icon-sp-8@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support {
+        display: block;
+        height: 37px;
+        width: 37px;
+    }
+    .quote-first {
+        background: url("../images/quote%402x.png") no-repeat scroll;
+        background-size: 50px 48px;
+        height: 48px;
+        width: 50px;
+    }
+    .icon-in {
+        background: url("../images/icon-in%402x.png") no-repeat scroll;
+        background-size: 32px 32px;
+    }
+    .twitter {
+        //background: url("../images/icon-twitter@2x.png") no-repeat scroll;
+        background-size: 32px 32px;
+    }
+    .social-review span {
+        display: block;
+        float: left;
+        height: 31px;
+        width: 32px;
+    }
+    .follow-social .facebook {
+        //background: url("../images/icon-facebook@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .instagram {
+        //background: url("../images/icon-instagram@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .mail {
+        //background: url("../images/icon-mail@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .twitter {
+        //background: url("../images/twitter@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .footer-info > div:nth-last-child(2) {
+        background: url("../images/img-footer-info%402x.html") no-repeat scroll;
+        background-size: 143px 143px;
+        float: right;
+        //height: 143px;
+        width: 143px;
+    }
+    .arrow-back-top {
+        background: url("../images/arrow-back-top%402x.png") no-repeat scroll;
+        background-size: 25px 25px;
+        display: block;
+        float: right;
+        height: 25px;
+        margin-left: 20px;
+        width: 25px;
+    }
+    .icon-design {
+        background: url("../images/icon-design%402x.html") no-repeat scroll;
+        background-size: 19px 19px;
+        display: block;
+        height: 19px;
+        left: 30%;
+        width: 19px;
+    }
+    .icon-winphone {
+        background: url("../images/icon-winphone%402x.png") no-repeat scroll;
+        background-size: 16px 18px;
+        display: block;
+        height: 18px;
+        left: 30%;
+        width: 16px;
+    }
+    .icon-webapp {
+        background: url("../images/icon-webapp%402x.png") no-repeat scroll;
+        background-size: 18px 18px;
+        display: block;
+        height: 18px;
+        left: 30%;
+        width: 18px;
+    }
+    .icon-button {
+        background: url("../images/icon-button%402x.html") no-repeat scroll;
+        background-size: 19px 19px;
+        display: block;
+        height: 19px;
+        left: 30%;
+        width: 19px;
+    }
+    .step-app-static > .step-1 {
+        background: url("../images/step-1-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+
+    .step-app-static > .step-2 {
+        background: url("../images/step-2-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+
+    .step-app-static > .step-3 {
+        background: url("../images/step-3-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+
+    .item-menu-library{
+        background: url('../images/icon-gallery%402x.png') no-repeat;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+        background-size: 25px 25px;
+    }
+    .item-menu-library:hover{
+        background: url('../images/icon-gallery-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+    }
+
+
+    .item-menu-pattern{
+        background: url('../images/icon-idea-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+    }
+    .item-menu-pattern:hover{
+        background: url('../images/icon-idea-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+    }
+
+
+    .item-menu-ux{
+        background: url('../images/icon-ux-tool%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+        background-position: 0px -2px;
+    }
+    .item-menu-ux:hover{
+        background: url('../images/icon-ux-tool-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+        background-position: 0px -2px;
+    }
+
+
+    .item-menu-market{
+        background: url('../images/icon-home%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+        background-position: 0px -2px;
+    }
+    .item-menu-market:hover{
+        background: url('../images/icon-home-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+        background-position: 0px -2px;
+    }
+    .icon-left-hiw-1{
+        background: url('../images/icon-hiw-1%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-2{
+        background: url('../images/icon-hiw-2%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-3{
+        background: url('../images/icon-hiw-3%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-4{
+        background: url('../images/icon-hiw-4%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-5{
+        background: url('../images/icon-hiw-5%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-1{
+        background: url('../images/icon-f-1%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-2{
+        background: url('../images/icon-f-2%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-3{
+        background: url('../images/icon-f-3%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-4{
+        background: url('../images/icon-f-4%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-5{
+        background: url('../images/icon-f-5%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+
+
+}
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 144dpi) {
+    /* Retina-specific stuff here */
+    .step-app-static > .step-1 {
+        background: url("../images/step-1-new.png") no-repeat scroll 0% 0% transparent;
+    }
+    .icon-support-1 span {
+        //background: url("../images/icon-sp-1@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-lookup {
+        //background: url("../images/icon-lookup@2x.png") no-repeat scroll;
+        //background-size: 28px 28px;
+    }
+    .icon-support-2 span {
+        //background: url("../images/icon-sp-2@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-3 span {
+        //background: url("../images/icon-sp-3@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-4 span {
+        //background: url("../images/icon-sp-4@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-5 span {
+        //background: url("../images/icon-sp-5@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-6 span {
+        //background: url("../images/icon-sp-6@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-7 span {
+        //background: url("../images/icon-sp-7@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support-8 span {
+        //background: url("../images/icon-sp-8@2x.png") no-repeat scroll;
+        //background-size: 36px 36px;
+    }
+    .icon-support {
+        display: block;
+        height: 37px;
+        width: 37px;
+    }
+    .quote-first {
+        background: url("../images/quote%402x.png") no-repeat scroll;
+        background-size: 50px 48px;
+        height: 48px;
+        width: 50px;
+    }
+    .icon-in {
+        background: url("../images/icon-in%402x.png") no-repeat scroll;
+        background-size: 32px 32px;
+    }
+    .twitter {
+        //background: url("../images/icon-twitter@2x.png") no-repeat scroll;
+        background-size: 32px 32px;
+    }
+    .social-review span {
+        display: block;
+        float: left;
+        height: 31px;
+        width: 32px;
+    }
+    .follow-social .facebook {
+        //background: url("../images/icon-facebook@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .instagram {
+        //background: url("../images/icon-instagram@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .mail {
+        //background: url("../images/icon-mail@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+    }
+    .follow-social .twitter {
+        //background: url("../images/twitter@2x.png") no-repeat scroll;
+        background-size: 82px 82px;
+        height: 82px;
+        width: 82px;
+        margin-right: 8px;
+    }
+    .footer-info > div:nth-last-child(2) {
+        background: url("../images/img-footer-info%402x.html") no-repeat scroll;
+        background-size: 143px 143px;
+        float: right;
+        //height: 143px;
+        width: 143px;
+    }
+    .arrow-back-top {
+        background: url("../images/arrow-back-top%402x.png") no-repeat scroll;
+        background-size: 25px 25px;
+        display: block;
+        float: right;
+        height: 25px;
+        margin-left: 20px;
+        width: 25px;
+    }
+    .icon-design {
+        background: url("../images/icon-design%402x.html") no-repeat scroll;
+        background-size: 19px 19px;
+        display: block;
+        height: 19px;
+        left: 30%;
+        width: 19px;
+    }
+    .icon-winphone {
+        background: url("../images/icon-winphone%402x.png") no-repeat scroll;
+        background-size: 16px 18px;
+        display: block;
+        height: 18px;
+        left: 30%;
+        width: 16px;
+    }
+    .icon-webapp {
+        background: url("../images/icon-webapp%402x.png") no-repeat scroll;
+        background-size: 18px 18px;
+        display: block;
+        height: 18px;
+        left: 30%;
+        width: 18px;
+    }
+    .icon-button {
+        background: url("../images/icon-button%402x.html") no-repeat scroll;
+        background-size: 19px 19px;
+        display: block;
+        height: 19px;
+        left: 30%;
+        width: 19px;
+    }
+
+    .item-menu-library{
+        background: url('../images/icon-gallery%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+    }
+    .item-menu-library:hover{
+        background: url('../images/icon-gallery-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+    }
+
+
+    .item-menu-pattern{
+        background: url('../images/icon-idea%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+    }
+    .item-menu-pattern:hover{
+        background: url('../images/icon-idea-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+    }
+
+
+    .item-menu-ux{
+        background: url('../images/icon-ux-tool%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+        background-position: 0px -2px;
+    }
+    .item-menu-ux:hover{
+        background: url('../images/icon-ux-tool-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+        background-position: 0px -2px;
+    }
+
+
+    .item-menu-market{
+        background: url('../images/icon-home%402x.png') no-repeat;
+        background-size: 25px 25px;
+        padding-left: 15px;
+        padding-top: 3px;
+        margin-top: 0px !important;
+        background-position: 0px -2px;
+    }
+    .item-menu-market:hover{
+        background: url('../images/icon-home-active%402x.png') no-repeat;
+        background-size: 25px 25px;
+        background-position: 0px -2px;
+    }
+    .step-app-static > .step-1 {
+        background: url("../images/step-1-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+
+    .step-app-static > .step-2 {
+        background: url("../images/step-2-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+
+    .step-app-static > .step-3 {
+        background: url("../images/step-3-new%402x.png") no-repeat;
+        background-size: 232px 92px;
+    }
+    .icon-left-hiw-1{
+        background: url('../images/icon-hiw-1%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-2{
+        background: url('../images/icon-hiw-2%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-3{
+        background: url('../images/icon-hiw-3%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-4{
+        background: url('../images/icon-hiw-4%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-5{
+        background: url('../images/icon-hiw-5%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-1{
+        background: url('../images/icon-f-1%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-2{
+        background: url('../images/icon-f-2%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-3{
+        background: url('../images/icon-f-3%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-4{
+        background: url('../images/icon-f-4%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+    .icon-left-hiw-f-5{
+        background: url('../images/icon-f-5%402x.png') no-repeat;
+        height: 66px;
+        width: 66px;
+        background-size: 66px 66px;
+    }
+
+
+}

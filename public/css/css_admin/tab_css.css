@@ -1,0 +1,36 @@
+
+.product{
+	margin-top:10px;
+	border:1px solid #c0c0c0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	width:100%; //570px
+	margin-left:10px;
+	float:left;
+}
+
+.title{
+	height:29px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	background:url('images/bg_search_content.jpg') repeat-x bottom left;
+}
+
+#tabs{padding:0px;}
+
+#tabs a{
+	font-size:12px;
+	line-height:29px;
+	font-weight:bold;
+	text-transform:uppercase;
+    color:red;
+	float:left;
+	padding-left:20px;
+}
+.set{
+	background:url('images/tab_content.png') no-repeat right;
+}
+
+#tab2 {display:none;}
+#tab3 {display:none;}
+

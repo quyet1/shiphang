@@ -1,0 +1,1224 @@
+@media screen and (min-width:1200px){
+	.find-freelancer-right{
+		margin-left: 1%;
+	}
+	.total-feedback{
+		position: relative;
+		top: 35px;
+        color:#fff;
+	/*}*/
+	/*.label-feedback{*/
+		text-align: right;
+	}
+	/*.arrow-feedback{*/
+		/*left:3px;*/
+		/*padding-left: 0;*/
+		/*top:60px;*/
+		/*display: block;*/
+	/*}*/
+	/*.right-comment-feedback{*/
+		/*margin-left: -25px;*/
+		/*padding-right: 0px;*/
+	/*}*/
+    /*.right-comment-feedback div:first-child,*/
+	.item-comment-feedback,.right-comment-feedback div:last-child{
+		padding-right: 0px;
+	}
+	.percent-feedback{
+		text-align: left;
+	}
+	.desc-detail-project,.skill-detail-project,.desc-detail-project > div,.skill-detail-project > div{
+		padding-left: 0;
+	}
+	.no-padding-left{
+		padding-left: 0;
+	}
+	.no-padding-right{
+		padding-right: 0;
+	}
+	.no-padding{
+		padding: 0;
+	}
+	.padding-table-freelancer-bid{
+		padding: 50px 8px !important;
+	}
+	.rating-margin{
+		margin-left: -40px;
+	}
+    .skill{
+        margin-left: 10px;
+        position: relative;
+    }
+    .skill > .arrow-feedback{
+        position: absolute;
+        left: -24px;
+        top: 18px;
+    }
+    .fileinput{
+        margin-top: 10px;
+    }
+    .cb-milestone{
+        padding-top: 8px;
+    }
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 1200px){
+	.find-freelancer-left{
+		margin: 10px 0px;
+	}
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:992px){
+    .skill{
+        margin-top: 10px;
+    }
+    .step-app-static{
+        display: none !important;
+    }
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .icon_facebook, .icon_google, .icon_appota{
+        background: none;
+        width: 0;
+    }
+   .wrap-content-app {
+       margin-top: -100px !important;
+   }
+   .header-app{
+   		min-height: 121px;
+   }
+   .navbar-menu-app{
+   		top:-78px;
+   }
+    .button-app button:last-child{
+        margin-left: 50px;
+    }
+    .line-name{
+        text-align: center !important;
+    }
+    .block-verify .img-avatar{
+        margin-bottom: 10px;
+    }
+    .padding-right-5{
+        padding-right: 5px;
+    }
+    .home-block {
+        min-height: 370px;
+    }
+    .cus-home-nav > li > a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (min-width:975px) and (max-width: 1200px){
+	.freelancer-rate{
+		text-align: left;
+	}
+	.margin-top-bottom{
+		margin: 10px 0px;
+	}
+	.rating-margin{
+		margin-left: -40px;
+	}
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:975px) and (min-width:755px){
+    .icon_facebook, .icon_google, .icon_appota{
+        background: none;
+        width: 0;
+    }
+	.wrap-content-app{
+		/*margin-top: -100px;*/
+	}
+	.freelancer-rate{
+		text-align: left;
+	}
+	.margin-top-bottom{
+		margin: 10px 0px;
+	}
+	.rating-margin{
+		margin-left: -40px;
+	}
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:768px) and (min-width:756px){
+    .icon_facebook, .icon_google, .icon_appota{
+        background: none;
+        width: 0;
+    }
+	.header-app{
+		min-height: 100px;
+	}
+    .button-app button:last-child{
+        margin-left: 50px;
+    }
+    .padding-right-5{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:755px) and (min-width:285px) {
+    .wrap-intro{
+        position: inherit !important;
+        top:0px !important;
+    }
+    .menu-app{
+        width: 100%;
+        top:0px;
+    }
+    .menu-user-app {
+        padding-top: 0px;
+    }
+    .wrap-content-app{
+        margin-top: -30px;
+    }
+    .freelancer-rate{
+        float: left;
+    }
+    .name-item-freelancer,.btn-join-freelancer{
+        margin: 5px 0px;
+        text-align: center;
+    }
+    .freelancer-pagination-rate-last{
+        margin-bottom: 10px;
+    }
+    .margin-top-bottom{
+        margin: 10px 0px;
+    }
+    .reviews{
+        padding: 0px;
+    }
+    .info-profile{
+        padding: 0;
+    }
+    .wrap-feedback{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .label-feedback-right{
+        text-align: left;
+        padding:0;
+    }
+    .total-feedback{
+        position: relative;
+        color:#fff;
+        text-align: left;
+        padding:0;
+    }
+    .content-right-feedback-user{
+        padding:0;
+    }
+    .arrow-feedback{
+        top:-28px;
+        right:15px;
+        left: inherit;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 8px solid #f7f7f7;
+    }
+    .button-app button:last-child{
+        margin-left: 50px;
+    }
+    .slider{
+        #background: url('../images/BgBanner1.png') center no-repeat !important;
+        height: 560px !important;
+    }
+    .slider-library{
+        background: #A183BB !important;
+    }
+    .slider-pattern{
+        background: #f88716 !important;
+    }
+    .search > .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .button-app-static {
+        top: 283px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .content-support{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-btn-gg a{
+        display: block;
+    }
+    #form-signup .col-btn-gg, #form-signup .col-btn-appota, .col-btn-gg, .col-btn-appota{
+        margin-top: 0;
+    }
+    .col-btn-fb{
+        padding-right: 0;
+    }
+    .col-btn-appota{
+        padding-left: 0;
+    }
+    .menu-header-top ul li{
+        padding-left: 15px;
+    }
+    .img-signup{
+        display: none;
+    }
+    .menu-header-top{
+        position: absolute;
+        top: 43px;
+        z-index: 99;
+        left: 0;
+        background: #373737;
+        border: none;
+        display: none;
+    }
+    .menu-header-top .navbar-toggle{
+        float: left;
+    }
+    .menu-header-top .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+    }
+    .menu-header-top .navbar-collapse {
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        top: -2px;
+        background: #373737;
+        width: 100%;
+    }
+    .menu-header-top ul li{
+        float: none !important;
+        padding-right: 0;
+    }
+    .menu-responsive{
+        display: block;
+        position: absolute;
+        background: transparent !important;
+        z-index: 999;
+        left: 50px;
+    }
+    .line-menu-responsive{
+        display: block;
+        height: 50px;
+    }
+    .menu-home{
+        display: none;
+    }
+    .block-login .col-xs-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .block-login button, .block-login a{
+        padding-right: 40px !important;
+    }
+    .wrap-menu{
+        background: #373737 !important;
+    }
+    .menu-header-top-responsive{
+        display: block;
+        position: absolute;
+        background: transparent;
+        border: none;
+        z-index: 99;
+        right: 0px;
+    }
+    .menu-categories-find{
+        //display: none;
+    }
+    .find-job-title, .top-content-find-freelancer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .top-content-find-freelancer{
+        margin-top: 0;
+    }
+    .box-filter{
+        display: block;
+    }
+    .box-cat-responsive .rating-xs{
+        font-size: 20px;
+        display: inline-block;
+    }
+    .div-role label{
+        font-size: 15px !important;
+    }
+    .btn-post-job-free{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .arrow-step-ux{
+        display: none !important;
+    }
+}
+@media screen and (max-width:755px) and (min-width:481px){
+    .col-verify{
+        width: 50%;
+    }
+    .line-name{
+        text-align: center !important;
+    }
+    .block-verify .img-avatar{
+        margin-bottom: 10px;
+    }
+    .header-top .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .menu ul{
+        margin-left: 20px;
+    }
+    .menu li{
+        float: left;
+        margin-left: 10px;
+        line-height: 20px;
+        margin-top: 12px !important;
+        padding-left: 10px;
+    }
+    .title-slider-static{
+        left: 0;
+        font-size: 36px;
+        width: 100%;
+        text-align: center;
+    }
+    .intro-slider-static {
+        left: 0;
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .post-my-job, .want-a-job{
+        width: 220px;
+        position: initial !important;
+    }
+    .post-my-job{
+        margin-right: 10px;
+    }
+    .button-app-static > .want-a-job{
+        top: 0px;
+    }
+    .menu li .text {
+        top: 2px;
+    }
+    .follow-post-my-job{
+        margin-right: 5px;
+    }
+    .title-ux{
+        top: 0;
+        left: 0;
+        margin-top: 15% !important;
+    }
+    .intro-ux{
+        top: 0;
+        left: 0;
+        margin-top: 40% !important;
+    }
+    .start-prototyping{
+        top: 330px !important;
+        /*left: 130px !important;*/
+    }
+    .step-ux{
+        margin-left: 0% !important;
+    }
+    .intro-library{
+        margin-top: 10% !important;
+    }
+    .slider-pattern .search-wrapper{
+        margin-top: 8% !important;
+    }
+    .icon-ux-tool{
+        margin-left: 30%;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media screen and (max-width:755px) and (min-width:667px){
+    .menu li{
+        float: left;
+        margin-left: 20px;
+        line-height: 20px;
+        margin-top: 12px !important;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:481px) and (min-width:375px){
+    .menu ul{
+        margin-left: 20px;
+    }
+    .menu li{
+        float: left;
+        margin-left: 20px;
+        width: 40px;
+        height: 47px;
+        background-position: 0px 10px;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media screen and (max-width:320px) and (min-width:285px){
+    .menu ul{
+        margin-left: 0px;
+    }
+    .menu li{
+        float: left;
+        margin-left: 15px;
+        width: 40px;
+        height: 47px;
+        line-height: 50px;
+        background-position: 0px 10px;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media screen and (max-width:375px) and (min-width:320px){
+    .menu-header-top, .menu-user {
+        margin-top: 10px !important;
+    }
+    .menu-header-top{
+        top: 43px;
+    }
+    .line-name{
+        text-align: center !important;
+    }
+    .block-verify .img-avatar{
+        margin-bottom: 10px;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media screen and (max-width:481px) and (min-width:360px){
+    .menu ul{
+        margin-left: 10px;
+    }
+    .menu li{
+        float: left;
+        margin-left: 20px;
+        width: 40px;
+        height: 47px;
+        background-position: 0px 10px;
+    }
+    .title-ux{
+        top: 70px;
+        left: 5px;
+    }
+    .intro-ux{
+        top: 230px;
+        left: -2%;
+    }
+    .start-prototyping{
+        top: 350px;
+        /*left: 48px;*/
+    }
+    .title-slider-static{
+        top: 30px;
+        left: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media screen and (max-width:480px) and (min-width:285px){
+    /*Huynh An*/
+    .menu-user .btn-menu-user {
+        padding: 5px 25px 10px 35px;
+        color: #e24b31 !important;
+        margin-bottom: 0;
+        font-size: 14px;
+        border-radius: 4px;
+        margin: -0px 0px 0px 0px;
+    }
+    .form-search-cate{
+        top: 40px;
+    }
+    .div-submit-search{
+        margin-top: 15px;
+    }
+    .home-search-form-row .home-search-form .key_words{
+        margin-top: 10px;
+    }
+    #form-search .location,#form-search .div-submit-search,#form-search .keywords{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .item-support:nth-child(2),.item-support:nth-child(3){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .item-support{
+        margin-bottom: 10px !important;
+    }
+    .google{
+        margin-bottom: 10px;
+    }
+    .google,.twitter{
+        margin-right: 0px !important;
+    }
+    .body-top-employer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .body-top-employer > div > div {
+        margin-bottom: 10px;
+    }
+    .review{
+        margin-bottom: 10px;
+    }
+    /*end Huynh An*/
+    .button-app button:last-child{
+        margin-left: 50px;
+    }
+    .header-top .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .menu li .text{
+        display: none;
+    }
+    .title-slider-static{
+        top: 30px;
+        left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .intro-slider-static {
+        left: 0%;
+        top: 170px;
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .post-my-job, .want-a-job{
+        width: 220px;
+    }
+    .want-a-job{
+        top: 70px;
+    }
+    .follow-post-my-job, .follow-want-a-job{
+        width: 240px;
+        margin-top: 10px;
+    }
+    .follow-social{
+        margin-bottom: 35px;
+    }
+    .follow-post-my-job span:first-child,.follow-want-a-job span:first-child{
+        margin-right: 5px;
+        padding-left: 0;
+        border-right: 1px solid #fff;
+        height: 60px;
+        width: 60px;
+        display: inline-block;
+        padding-right: 0px;
+    }
+    .follow-post-my-job span:last-child{
+        left: 0 !important;
+    }
+    .follow-post-my-job span:first-child{
+        width: 68px;
+    }
+    .follow-want-a-job span:first-child{
+        margin-left: -15px;
+    }
+    .follow-want-a-job img{
+        margin-left: -5px;
+    }
+    .follow-post-my-job img, .follow-want-a-job img {
+        border-right: none !important;
+    }
+    .title-ux{
+        top: 0;
+        left: 0;
+        margin-top: 25% !important;
+        font-size: 25px !important;
+    }
+    .intro-ux{
+        top: 0px !important;
+        left: 0 !important;
+        margin-top: 65% !important;
+        font-size: 18px !important;
+    }
+    .start-prototyping{
+        top: 325px !important;
+        /*left: 10px !important;*/
+    }
+    .step-ux{
+        margin-left: 0% !important;
+    }
+    .title-library{
+
+        font-size: 28px !important;
+    }
+    .intro-library{
+        margin-top: 8%;
+        font-size: 18px !important;
+    }
+    .search-wrapper{
+        width: 88% !important;
+        margin-top: 10% !important;
+    }
+    .slider-pattern .search-wrapper{
+        width: 100% !important;
+    }
+    .title-pattern{
+        left: 0 !important;
+        top: 0 !important;
+        font-size: 28px !important;
+        margin-top: 10%;
+    }
+    .intro-pattern{
+        left: 0 !important;
+        top: 0 !important;
+        font-size: 21px !important;
+        margin-top: 40%;
+    }
+    .div-select{
+        width: 90% !important;
+        margin-top: 10% !important;
+    }
+    .div-select select{
+        width: 89% !important;
+    }
+    .icon-ux-tool{
+        margin-left: 5%;
+    }
+    .icon-lookup-library{
+        width: 40% !important;
+    }
+    .sl-name{
+        right: 36% !important;
+    }
+    #name-type{
+        right: 51% !important;
+    }
+	.info-project .span-xs-12{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .m-block{
+        display: block;
+    }
+}
+@media (max-width:600px){
+    .bid-comment .popover{
+        left: 0px !important;
+    }
+}
+@media (min-width: 768px){
+    .item-content {
+        padding-right: 20px;
+    }
+    .menu-header-top{
+        padding-left: 15px;
+    }
+}
+@media (max-width:285px){
+	.menu-user-app{
+	}
+	.menu-dashboard{
+		padding: 0;
+	}
+	.btn-join-freelancer{
+		text-align: center;
+	}
+	.reviews{
+		padding: 0px;
+	}
+	.info-profile{
+		padding: 0;
+	}
+	.wrap-feedback{
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.label-feedback-right{
+		text-align: left;
+		padding:5px 0;
+	}
+	.total-feedback{
+		position: relative;
+		color:#fff;
+		text-align: left;
+		padding:0;
+	}
+	.content-right-feedback-user{
+		padding:0;
+	}
+	.arrow-feedback{
+		top:-25px;
+		right:30px;
+	}
+    .m-block{
+        display: block;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .navbar-menu-app{
+    	z-index: 10;
+    }
+    .profile-user,.wrap-content-app > .container > .row > div:first-child{
+    		margin-top: 50px;
+    }
+    @media screen and (min-width:975px) and (max-width: 1200px){
+    	.profile-user,.wrap-content-app > .container > .row > div:first-child{
+    		margin-top: 50px;
+    	}
+    }
+    @media screen and (max-width:975px) and (min-width:755px){
+    	.profile-user,.wrap-content-app > .container > .row > div:first-child{
+    		margin-top: 100px;
+    	}
+    }
+    @media screen and (max-width:755px) and (min-width:285px){
+    	.profile-user,.wrap-content-app > .container > .row > div:first-child{
+    		margin-top: 50px;
+    	}
+    }
+    @media (max-width:285px){
+    	.profile-user,.wrap-content-app > .container > .row > div:first-child{
+    		margin-top: 50px;
+    	}
+    }
+}
+/*screen min 1024*/
+@media (min-width: 1024px) {
+}
+/*end screen min 1024*/
+/*screen max 1024*/
+@media (max-width: 1023px) {
+
+}
+/*end screen max 1024*/
+/*screen mix 668px, max 768px*/
+@media screen and (max-width: 768px) and (min-width: 668px) {
+    .item-support{
+        margin-right: 65px !important;
+    }
+}
+/*screen mix 550px, max 667px*/
+@media screen and (max-width: 667px) and (min-width: 550px) {
+}
+/*screen max 480px*/
+@media screen and (max-width: 480px){
+}
+/*end screen max 480px*/
+/*screen max 768px*/
+@media screen and (max-width: 768px){
+    .modal-email{
+        width: 90%;
+        top: 10%;
+        left: 5%;
+        padding: 20px;
+    }
+}
+/*end screen max 768px*/
+/*screen max 667px*/
+@media screen and (max-width: 667px){
+    .menu-user-login{
+        display: none;
+    }
+    .navbar-header{
+        float: right;
+    }
+    div.wrap_unregister_job{
+        margin-top: 0px;
+    }
+    .box-jobs div.col-jobs div:nth-child(2){
+        text-align: left;
+        padding: 0px 0px 5px 0px;
+    }
+    .intro-jobs span{
+        display: block;
+        padding-left: 0px;
+    }
+    .apply-modal .modal-dialog{
+        width: 100% !important;
+    }
+    .list-filters-categories h2{
+        margin-top: 0px;
+        font-size: 22px;
+    }
+    .title-content h2{
+        font-size: 22px;
+    }
+    #frm-login h2, #form-signup h2, .frm-login h2{
+        font-size: 26px;
+    }
+    .app-signup h2{
+        margin-top: 20px !important;
+    }
+    .slider {
+      height: 507px !important;
+    }
+    .title-slider-static {
+      top: 50px;
+      left: 0;
+      font-size: 30px;
+      text-align: center;
+    }
+    .list-filters-categories ul{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .follow-social div {
+        width: 15% !important;
+        margin-right: 0px !important;
+    }
+    .form-search-cate {
+      top: 60px;
+    }
+    .menu-user .btn-menu-user{
+        margin:-0px 0px 0px 0px;
+        padding: 5px 25px 10px 35px;
+    }
+    .post-job{
+        margin-right: 20px;
+        margin-top: -7px;
+    }
+    #form-search .location, #form-search .div-submit-search, #form-search .keywords {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .home-search-form-row .home-search-form .key_words {
+        margin-top: 30px;
+    }
+    .body-top-employer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .body-top-employer div{
+        margin-bottom: 10px;
+    }
+    .review {
+        margin-bottom: 10px;
+    }
+    .follow-social{
+        margin-bottom: 35px;
+    }
+
+    /*employers*/
+    .title-employer-slider-static{
+        margin-bottom: 0px;
+    }
+    .none-border-input{
+        margin-top: 10px;
+    }
+    .employer-search-form .padding-left{
+        padding-left: 0px;
+    }
+    .employer-search-form .btn-topdev{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .home-search-form-row .home-search-form .key_words, .employer-search-form .key_words{
+        margin-top: 10px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    /*end employers*/
+}
+/*end screen max 667px*/
+/*screen max 568px*/
+@media screen and (max-width: 568px){
+    .slider {
+      height: 507px !important;
+    }
+    .title-slider-static {
+      top: 50px;
+      left: 0;
+      font-size: 28px;
+      text-align: center;
+    }
+    .list-filters-categories ul{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .follow-social div {
+        width: 23% !important;
+        margin-right: 0px !important;
+    }
+    .form-search-cate {
+      top: 60px;
+    }
+    .menu-user .btn-menu-user{
+        margin:-0px 0px 0px 0px;
+        padding: 5px 25px 10px 35px;
+    }
+    .post-job{
+        margin-right: 20px;
+        margin-top: -7px;
+    }
+    #form-search .location, #form-search .div-submit-search, #form-search .keywords {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .home-search-form-row .home-search-form .key_words {
+        margin-top: 30px;
+    }
+    .body-top-employer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .body-top-employer div{
+        margin-bottom: 10px;
+    }
+    .review {
+        margin-bottom: 10px;
+    }
+    .follow-social{
+        margin-bottom: 35px;
+    }
+    .modal-email{
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+}
+/*end screen max 568px*/
+/*screen max 480px*/
+@media screen and (max-width: 480px){
+    .slider {
+      height: 507px !important;
+    }
+    .title-slider-static {
+      top: 20px;
+      left: 0;
+      font-size: 23px;
+      text-align: center;
+    }
+    .list-filters-categories ul{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .follow-social div {
+        width: 23% !important;
+        margin-right: 0px !important;
+    }
+    .post-job{
+        margin-right: 0px;
+        margin-top: -7px;
+    }
+    .title-employer-slider-static{
+        margin-bottom: 60px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+}
+/*end screen max 480px*/
+/*screen max 415px*/
+@media screen and (max-width: 415px){
+}
+/*end screen max 415px*/
+/*screen max 400px*/
+@media screen and (max-width: 400px){
+    .slider-detail .slider {
+        height: 170px !important;
+    }
+    .slider-job .slider {
+        height: 370px !important;
+    }
+    .slider-detail .form-search-cate {
+        top: 0px;
+    }
+    .slider-job .form-search-cate{
+        top: 10px;
+    }
+    .slider {
+      height: 407px !important;
+    }
+    .title-slider-static {
+      top: -2px;
+      left: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+    .list-filters-categories ul{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .follow-social div {
+        width: 40% !important;
+    }
+    .post-job{
+        margin-right: 0px;
+        margin-top: -7px;
+    }
+    .form-search-cate {
+        top: 40px;
+    }
+    .home-search-form-row .home-search-form .key_words {
+        margin-top: 10px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    .modal-email-content .title{
+        font-size: 24px;
+    }
+    .modal-email-content .btn-submit{
+        font-size: 14px;
+    }
+    #form-search .location, #form-search .keywords{
+        margin-bottom: 5px;
+    }
+}
+/*end screen max 400px*/
+/*screen max 375*/
+@media screen and (max-width: 375px){
+    #form-search .no-padding-left{
+        padding: 0px;
+    }
+    .title-employer-slider-static{
+        margin-bottom: 20px;
+    }
+    .wrap-project-search .tag-input .bootstrap-tagsinput {
+      margin-top: 10px;
+    }
+    .wrap-project-search #location.form-control {
+      margin-top: 10px;
+    }
+    .wrap-project-search .btn-sh {
+      margin-top: 10px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    .modal-email-content .title{
+        font-size: 24px;
+    }
+    .modal-email-content .btn-submit{
+        font-size: 14px;
+    }
+}
+/*end screen max 375*/
+/*screen max 360*/
+@media screen and (max-width: 360px){
+    .wrap-project-search .tag-input .bootstrap-tagsinput {
+      margin-top: 10px;
+    }
+    #form-search .no-padding-left{
+        padding: 0px;
+    }
+    .wrap-project-search #location.form-control {
+      margin-top: 10px;
+    }
+    .wrap-project-search .btn-sh {
+      margin-top: 10px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    .modal-email-content .title{
+        font-size: 24px;
+    }
+    .modal-email-content .btn-submit{
+        font-size: 14px;
+    }
+}
+/*end screen max 360*/
+/*screen max 320*/
+@media screen and (max-width: 320px){
+    .title-employer-slider-static{
+        margin-bottom: 30px;
+    }
+    #form-search .no-padding-left{
+        padding: 0px;
+    }
+    .wrap-project-search .tag-input .bootstrap-tagsinput{
+        margin-top: 10px;
+    }
+    .wrap-project-search #location.form-control{
+        margin-top: 10px;
+    }
+    .wrap-project-search .btn-sh{
+        margin-top: 10px;
+    }
+    .slider {
+      height: 530px !important;
+    }
+    .title-slider-static {
+      top: 10px;
+      left: 0;
+      font-size: 20px;
+      text-align: center;
+    }
+    .follow-social div {
+        width: 32% !important;
+    }
+    .post-job{
+        margin-right: 0px;
+        margin-top: -7px;
+    }
+    .list-filters-categories ul li a{
+        margin-left: 30px;
+    }
+    .box-img-logo{
+        display: none;
+    }
+    .col-jobs-hot{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .modal-email{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 5%;
+        padding: 20px;
+    }
+    .modal-email-content .title{
+        font-size: 24px;
+    }
+    .modal-email-content .btn-submit{
+        font-size: 14px;
+    }
+}
